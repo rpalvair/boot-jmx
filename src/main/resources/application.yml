@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: jmx
+
+cxf:
+  path: /api
+  jaxrs:
+    component-scan: true
+    classes-scan-packages: com.palvair.presentation
+
+
+logging:
+  level:
+    com.palvair: DEBUG
