@@ -6,9 +6,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @SpringBootApplication(scanBasePackages = "com.palvair")
 public class Application {
 
-    private Application() {
-    }
-
     public static void main(String[] args) throws Exception {
         new SpringApplicationBuilder(Application.class)
                 .run(args);
